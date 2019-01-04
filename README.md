@@ -1,4 +1,4 @@
-# enjoy-with-love2d
+# something to love
 - personal love2d repo.
 
 ## License
