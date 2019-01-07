@@ -2,8 +2,10 @@
 - personal love2d repo.
 
 ## What did you fill with love baskets?
-1.load-image-with-exception
-2.spine-runtime
+
+1. load-image-with-exception
+
+2. spine-runtime
 
 ## License
 - MIT license
