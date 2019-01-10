@@ -1,4 +1,4 @@
-# Something to love
+# Something to love :kr: 러브할 것들
 - Personal love2d repo.
 - Please read only those who know Korean.
 
