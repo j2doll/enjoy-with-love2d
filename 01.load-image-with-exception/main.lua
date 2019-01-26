@@ -1,5 +1,7 @@
 -- main.lua
 
+log = require "log" -- https://github.com/rxi/log.lua
+
 local ham = nil
 local x_pos = 0
 local y_pos = 0
@@ -14,6 +16,13 @@ end
 -- main code from http://ruoyusun.com/2013/03/30/pragmatic-lua-error-handling-oop-closure-and-coroutines.html
 
 function love.load()
+
+    log.trace('hello, trace')
+    log.debug('hello, debug')
+    log.info('hello, info') 
+    log.warn('hello, warn')
+    log.error('hello, error')
+    log.fatal('hello, fatal')
     
     -- try to load image 
     local success, result = pcall(i_might_throw_exception)
@@ -24,6 +33,9 @@ function love.load()
 
     x_pos = 50
     y_pos = 50
+
+    -- debug.debug()
+
 end
   
 function love.draw()
